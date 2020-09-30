@@ -46,7 +46,7 @@ nav {
   background-color: rgb(0, 85, 0);
 }
 
-nav ul {
+.menu {
   float: left;
 }
 
@@ -57,9 +57,9 @@ nav ul {
 
 .menu li a {
   display: block;
-  font-size: 20px;
-  padding: 12px 18px;
-  margin-top: 8px;
+  font-size: 18px;
+  padding: 11px 18px;
+  margin-top: 9px;
   text-decoration: none;
   color: azure;
 }
@@ -82,7 +82,7 @@ nav ul {
 
 #ommig {
   width: 900px;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 50px;
   margin-bottom: 150px;
 }

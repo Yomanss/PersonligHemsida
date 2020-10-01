@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Ahmeds Hemsida</title>
   </head>
-  <body>
+  <body id="aniMain">
     <header>
       <h1>Ahmeds Hemsida!</h1>
       <nav>
@@ -32,16 +32,16 @@
       </nav>
     </header>
     <main>
+      <div id="animebanner">
+        <img
+          src="animebanner.jpg"
+          alt="En banner av massa anime tjejer som gör erotiska miner"
+          id="banner"
+        />
+        <p id="bannerText">ANIME</p>
+      </div>
       <div class="wrapper">
-        <div id="animebanner">
-          <img
-            src="animebanner.jpg"
-            alt="En banner av massa anime tjejer som gör erotiska miner"
-            id="banner"
-          />
-          <p id="bannerText">ANIME</p>
-        </div>
-        <article id="animeBörja">
+        <article id="aniBörja" class="textContainer">
           <h2>När började jag med anime?</h2>
           <p>
             För att börja med prata om vilka mina favorit spel är tycker jag att
@@ -60,7 +60,7 @@
             perferendis sunt.
           </p>
         </article>
-        <article id="animeReko">
+        <article id="aniReko" class="textContainer">
           <h2>Mina anime rekommendationer!</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
@@ -72,7 +72,7 @@
             eveniet tempore quis velit minus dolorum omnis ea?
           </p>
         </article>
-        <article id="reko1">
+        <article class="textContainer">
           <h3>1. Code Geass</h3>
           <div class="animeCover">
             <img
@@ -102,7 +102,7 @@
             Quidem in, eveniet tempore quis velit minus dolorum omnis ea?
           </p>
         </article>
-        <article id="reko2">
+        <article class="textContainer">
           <h3>2. Great Pretender</h3>
           <div class="animeCover">
             <img
@@ -132,7 +132,7 @@
             Quidem in, eveniet tempore quis velit minus dolorum omnis ea?
           </p>
         </article>
-        <article id="reko3">
+        <article class="textContainer">
           <h3>3. Death Note</h3>
           <div class="animeCover">
             <img

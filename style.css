@@ -4,6 +4,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #1d1f29;
+}
+
 .wrapper {
   margin: 6px auto;
   width: 1000px;
@@ -17,7 +21,16 @@
 footer {
   width: 100%;
   height: 40px;
-  background-color: rgb(0, 85, 0);
+  background-color: black;
+}
+
+.textContainer {
+  background-color: #272937;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+  padding: 20px 20px 150px 20px;
+  margin-bottom: 130px;
 }
 
 footer p {
@@ -43,7 +56,7 @@ header h1 {
 nav {
   width: 100%;
   height: 56px;
-  background-color: rgb(0, 85, 0);
+  background-color: black;
 }
 
 .menu {
@@ -66,6 +79,7 @@ nav {
 
 .menu li a:hover {
   background-color: darkgreen;
+  border-bottom: 2px green solid;
 }
 
 /* INDEX.HTML */
@@ -83,8 +97,7 @@ nav {
 #ommig {
   width: 900px;
   font-size: 18px;
-  margin-top: 50px;
-  margin-bottom: 150px;
+  padding: 20px 20px 70px 20px;
 }
 
 #ommig div {
@@ -94,8 +107,9 @@ nav {
 
 /* SPEL.HTML */
 
-#spelBörja h2 {
-  margin-top: 20px;
+#spelBörja {
+  margin-top: 50px;
+  padding: 20px 20px 60px 20px;
 }
 
 #spelBörja p {
@@ -103,8 +117,7 @@ nav {
 }
 
 #spelcontent {
-  margin: 25px 0px 0px 25px;
-  border: 2px black solid;
+  border: 2px white solid;
   width: 225px;
   padding: 10px 10px 20px 10px;
   margin-bottom: 50px;
@@ -119,12 +132,17 @@ nav {
 }
 
 #spelcontent li a {
-  color: black;
+  color: #fff;
   font-size: 16px;
+}
+
+#spelcontent li a:hover {
+  color: gray;
 }
 
 #favoritSpel {
   margin-bottom: 50px;
+  padding: 20px 20px 70px 20px;
 }
 
 #favoritSpel p {
@@ -139,6 +157,10 @@ nav {
   margin-left: 20px;
   margin-top: -20px;
   float: right;
+}
+
+.spelCover p a {
+  color: #fff;
 }
 
 .spelCover p {
@@ -159,14 +181,9 @@ nav {
   margin-bottom: 20px;
 }
 
-.topBorder {
-  border-top: 2px black dotted;
-  padding-top: 20px;
-}
-
 .spelP {
   font-size: 18px;
-  margin-bottom: 165px;
+  color: #fff;
 }
 
 /* ANIME.HTML */
@@ -181,28 +198,18 @@ nav {
   width: 100%;
 }
 
-#animeBörja {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-#animeBörja p {
+#aniBörja {
   font-size: 18px;
 }
 
-#animeReko {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-#animeReko p {
+#aniReko {
   font-size: 18px;
 }
 
 .animeCover {
   width: 200px;
   margin-left: 20px;
-  margin-top: -20px;
+  margin-top: -22px;
   border: 2px black solid;
   padding: 3px;
   box-shadow: 2px 2px 5px black;
@@ -214,9 +221,17 @@ nav {
   font-size: 16px;
 }
 
+.animeCover p a {
+  color: #fff;
+}
+
+.reko h3 {
+  color: #fff;
+}
+
 .aniP {
+  color: #fff;
   font-size: 18px;
-  margin-bottom: 250px;
 }
 
 #bannerText {
@@ -242,6 +257,7 @@ nav {
 
   #ommig {
     width: 100%;
+    box-sizing: border-box;
     font-size: 12px;
     margin: 40px 0px 20px 0px;
   }
@@ -251,9 +267,13 @@ nav {
     width: 100%;
   }
 
+  .textContainer {
+    padding: 20px 0px 100px 0px;
+  }
+
   header {
     width: 100%;
-    background-color: rgb(0, 85, 0);
+    background-color: black;
   }
 
   header h1 {
@@ -274,7 +294,6 @@ nav {
     display: flex;
     justify-content: space-evenly;
   }
-
 
   .menu li a {
     font-size: 14px;
@@ -327,6 +346,10 @@ nav {
 
   .spelCover {
     width: 180px;
+  }
+
+  .textContainer {
+    padding: 20px 0px 150px 0px;
   }
 
   .topBorder {

@@ -33,8 +33,13 @@ footer {
   margin-bottom: 130px;
 }
 
+.textContainer h2 {
+  margin-left: 20px;
+}
+
 .textContainer > p {
   font-size: 18px;
+  padding: 0px 20px;
   color: #fff;
 }
 
@@ -95,14 +100,14 @@ nav {
   font-size: 18px;
   border: 2px black solid;
   border-radius: 20px;
-  padding: 10px;
+  padding: 10px 10px;
   margin: 20px 0px;
 }
-
+ 
 #ommig {
   width: 900px;
   font-size: 18px;
-  padding: 20px 20px 70px 20px;
+  padding: 20px 20px 70px 0px;
 }
 
 #ommig a {
@@ -118,13 +123,13 @@ nav {
 
 #spelBörja {
   margin-top: 50px;
-  padding: 20px 20px 60px 20px;
+  padding: 20px 0px 60px 0px;
 }
 
 #spelcontent {
   border: 2px white solid;
   width: 225px;
-  padding: 10px 10px 20px 10px;
+  padding: 10px 20px 20px 20px;
   margin-bottom: 50px;
 }
 
@@ -133,6 +138,7 @@ nav {
 }
 
 #spelcontent li {
+  margin-top: 10px;
   margin-left: 15px;
 }
 
@@ -204,12 +210,12 @@ nav {
 
 #aniBörja {
   font-size: 18px;
-  padding: 20px 20px 70px 20px;
+  padding: 20px 0px 70px 0px;
 }
 
 #aniReko {
   font-size: 18px;
-  padding: 20px 20px 70px 20px;
+  padding: 20px 0px 70px 0px;
 }
 
 .animeCover {
@@ -244,18 +250,22 @@ nav {
 
 @media only screen and (max-width: 868px) {
   #text1 {
-    width: 240px;
-    font-size: 12px;
+    width: 100%;
     border: 2px black solid;
+    box-sizing: border-box;
     border-radius: 5px;
-    padding: 0px 20px 20px 2px;
     margin: 10px 0px;
+  }
+
+  #text1 p {
+    padding: 0px 20px 20px 20px;
   }
 
   #ommig {
     width: 100%;
     box-sizing: border-box;
     font-size: 12px;
+    padding-right: 10px;
     margin: 40px 0px 20px 0px;
   }
 
@@ -266,6 +276,10 @@ nav {
 
   .textContainer {
     padding: 20px 0px 100px 0px;
+  }
+
+  #spelMinecraft p {
+    padding: 0px 20px;
   }
 
   header {

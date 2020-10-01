@@ -33,6 +33,11 @@ footer {
   margin-bottom: 130px;
 }
 
+.textContainer > p {
+  font-size: 18px;
+  color: #fff;
+}
+
 footer p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
@@ -78,7 +83,7 @@ nav {
 }
 
 .menu li a:hover {
-  background-color: darkgreen;
+  background-color: #272937;
   border-bottom: 2px green solid;
 }
 
@@ -100,6 +105,10 @@ nav {
   padding: 20px 20px 70px 20px;
 }
 
+#ommig a {
+  color: #fff;
+}
+
 #ommig div {
   float: right;
   margin-left: 24px;
@@ -110,10 +119,6 @@ nav {
 #spelBörja {
   margin-top: 50px;
   padding: 20px 20px 60px 20px;
-}
-
-#spelBörja p {
-  font-size: 18px;
 }
 
 #spelcontent {
@@ -163,6 +168,10 @@ nav {
   color: #fff;
 }
 
+.spelCover p a:hover {
+  color: gray;
+}
+
 .spelCover p {
   text-align: center;
   border-top: 2px black solid;
@@ -181,11 +190,6 @@ nav {
   margin-bottom: 20px;
 }
 
-.spelP {
-  font-size: 18px;
-  color: #fff;
-}
-
 /* ANIME.HTML */
 
 #animebanner {
@@ -200,10 +204,12 @@ nav {
 
 #aniBörja {
   font-size: 18px;
+  padding: 20px 20px 70px 20px;
 }
 
 #aniReko {
   font-size: 18px;
+  padding: 20px 20px 70px 20px;
 }
 
 .animeCover {
@@ -225,15 +231,6 @@ nav {
   color: #fff;
 }
 
-.reko h3 {
-  color: #fff;
-}
-
-.aniP {
-  color: #fff;
-  font-size: 18px;
-}
-
 #bannerText {
   position: absolute;
   top: 50%;
@@ -251,7 +248,7 @@ nav {
     font-size: 12px;
     border: 2px black solid;
     border-radius: 5px;
-    padding: 4px;
+    padding: 0px 20px 20px 2px;
     margin: 10px 0px;
   }
 
@@ -279,6 +276,7 @@ nav {
   header h1 {
     padding: 0px 10px;
     padding-top: 2px;
+    margin-left: 0px;
     text-align: center;
     font-size: 26px;
     color: azure;
@@ -331,7 +329,15 @@ nav {
   }
 
   #animebanner {
-    font-size: 30px;
+    font-size: 50px;
+  }
+
+  .aniP {
+    padding: 0px 5px 0px 5px;
+  }
+
+  .textContainer h3 {
+    margin-left: 10px;
   }
 }
 
@@ -354,9 +360,5 @@ nav {
 
   .topBorder {
     border: none;
-  }
-
-  #animebanner {
-    font-size: 20px;
   }
 }

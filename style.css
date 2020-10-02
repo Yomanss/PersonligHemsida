@@ -93,6 +93,11 @@ nav {
   border-bottom: 2px green solid;
 }
 
+.current {
+  background-color: #272937;
+  border-bottom: 2px green solid;
+}
+
 /* INDEX.HTML */
 
 #text1 {
